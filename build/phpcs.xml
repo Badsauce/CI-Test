@@ -1,6 +1,6 @@
-<ruleset name="name-of-your-coding-standard">
-    <description>Description of your coding standard</description>
+<ruleset name="NSCL/FRIB PHP Coding Standard">
+    <description>A hybrid of cakePHP and PEAR coding standards</description>
 
-    <rule ref="Generic.PHP.DisallowShortOpenTag"/>
-    <!-- ... -->
+    <!-- Pull the PEAR standard sniffers -->
+    <rule ref="PEAR"/>
 </ruleset>
