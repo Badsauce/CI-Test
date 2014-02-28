@@ -9,6 +9,10 @@ class helloTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($testString, "Hello world!");
     }
 
+    public function brokenTest(){
+        $this->assertEquals('no','yes');
+    }
+
 }
 
 ?>
