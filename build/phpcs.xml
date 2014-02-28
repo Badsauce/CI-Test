@@ -3,4 +3,7 @@
 
     <!-- Pull the PEAR standard sniffers -->
     <rule ref="PEAR"/>
+
+    <!-- Pull the cakePHP standard sniffers -->
+    <rule ref="CakePHP"/>
 </ruleset>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="ProjectName" tests="3" assertions="3" failures="0" errors="0" time="0.008418">
-    <testsuite name="helloTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/helloTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.006219">
-      <testcase name="testHello" class="helloTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/helloTest.php" line="6" assertions="1" time="0.006219"/>
+  <testsuite name="ProjectName" tests="3" assertions="3" failures="0" errors="0" time="0.007629">
+    <testsuite name="helloTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/helloTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.005667">
+      <testcase name="testHello" class="helloTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/helloTest.php" line="6" assertions="1" time="0.005667"/>
     </testsuite>
-    <testsuite name="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.002199">
-      <testcase name="testInitTable" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="6" assertions="1" time="0.001096"/>
-      <testcase name="testEndTable" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="13" assertions="1" time="0.001103"/>
+    <testsuite name="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.001962">
+      <testcase name="testInitTable" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="6" assertions="1" time="0.001037"/>
+      <testcase name="testEndTable" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="13" assertions="1" time="0.000925"/>
     </testsuite>
   </testsuite>
 </testsuites>
