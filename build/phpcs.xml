@@ -1,9 +1,14 @@
 <ruleset name="NSCL/FRIB PHP Coding Standard">
-    <description>A hybrid of cakePHP and PEAR coding standards</description>
+    <description>An unholy union of cakePHP and PEAR standards</description>
 
     <!-- Pull the PEAR standard sniffers -->
-    <rule ref="PEAR"/>
+    <!-- <rule ref="PEAR"/> -->
 
     <!-- Pull the cakePHP standard sniffers -->
-    <rule ref="CakePHP"/>
+    <rule ref="CakePHP">
+        <!-- Exclude standards that conflict with ours -->
+        <exclude name="Generic.WhiteSpace.DisallowSpaceIndent"/>
+        <exclude name="Zend.Files.ClosingTag"/>
+    </rule>
+
 </ruleset>
