@@ -1,37 +1,38 @@
 <?php
 
 class tableMaker{
-    public function initTable(){
+    public function initTable() {
         return "<table>";
     }
 
-    public function endTable(){
+    public function endTable() {
         return "</table>";
     }
 
-    public function makeHeaders($headers){
+    public function makeHeaders($headers) {
         $output = '<tr>';
-            foreach ($headers as $header){
-                $output .= '<th>'.$header.'</th>';
+            foreach ( $headers as $header ) {
+                $output .= '<th>' . $header . '</th>';
             }
         return $output.'</tr>';
     }
 
-    public function makeRow($row){
+    public function makeRow($row) {
         $output = '<tr>';
-            foreach($row as $cell){
-                $output .= '<td>'.$cell.'</td>';
+            foreach ( $row as $cell ) {
+                $output .= '<td>' . $cell . '</td>';
             }
         return $output.'</tr>';
     }
 
-    public function makeRows($rows){
+    public function makeRows($rows) {
         $output = '';
-        foreach($rows as $row){
+        foreach ($rows as $row) {
             $output .= makeRow($row);
         }
         return $output;
     }
+
 }
 
 ?>
