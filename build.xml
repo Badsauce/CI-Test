@@ -2,7 +2,7 @@
 
 <project name="name-of-project" default="build">
 <property environment="env"/>
-<property name="peardir" value="${env.PHP_PEAR_BIN_DIR}"/>
+<property name="peardir" value="C:/php/pear"/>
 
  <target name="build"
    depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpunit"/>
