@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="ProjectName" tests="5" assertions="5" failures="0" errors="0" time="0.009943">
-    <testsuite name="helloTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/helloTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.005818">
-      <testcase name="testHello" class="helloTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/helloTest.php" line="6" assertions="1" time="0.005818"/>
+  <testsuite name="ProjectName" tests="5" assertions="5" failures="0" errors="0" time="0.003776">
+    <testsuite name="helloTest" file="C:\Users\ninja_000\JenkinsTest\CI-Test\tests\unit\helloTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.003318">
+      <testcase name="testHello" class="helloTest" file="C:\Users\ninja_000\JenkinsTest\CI-Test\tests\unit\helloTest.php" line="6" assertions="1" time="0.003318"/>
     </testsuite>
-    <testsuite name="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.004125">
-      <testcase name="testInitTable" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="6" assertions="1" time="0.001102"/>
-      <testcase name="testEndTable" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="13" assertions="1" time="0.001028"/>
-      <testcase name="testMakeRow" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="20" assertions="1" time="0.001012"/>
-      <testcase name="testMakeHeaders" class="tableMakerTest" file="/home/badsauce/jenkinsTest/CI-Test/tests/unit/tableMakerTest.php" line="28" assertions="1" time="0.000983"/>
+    <testsuite name="tableMakerTest" file="C:\Users\ninja_000\JenkinsTest\CI-Test\tests\unit\tableMakerTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.000458">
+      <testcase name="testInitTable" class="tableMakerTest" file="C:\Users\ninja_000\JenkinsTest\CI-Test\tests\unit\tableMakerTest.php" line="6" assertions="1" time="0.000097"/>
+      <testcase name="testEndTable" class="tableMakerTest" file="C:\Users\ninja_000\JenkinsTest\CI-Test\tests\unit\tableMakerTest.php" line="13" assertions="1" time="0.000093"/>
+      <testcase name="testMakeRow" class="tableMakerTest" file="C:\Users\ninja_000\JenkinsTest\CI-Test\tests\unit\tableMakerTest.php" line="20" assertions="1" time="0.000136"/>
+      <testcase name="testMakeHeaders" class="tableMakerTest" file="C:\Users\ninja_000\JenkinsTest\CI-Test\tests\unit\tableMakerTest.php" line="28" assertions="1" time="0.000132"/>
     </testsuite>
   </testsuite>
 </testsuites>
